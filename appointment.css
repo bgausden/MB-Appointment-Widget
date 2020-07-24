@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond&display=swap");
+
+div.ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+    display: contents !important;
+}
+
+div.pre-filters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0px 10px;
+    grid-auto-flow: row;
+    align-items: stretch;
+    border-bottom: none;
+}
+
+.pre-filters > div:nth-child(1) {
+    grid-column: 1 / span 2;
+}
+
+.pre-filters > div:nth-child(2) {
+    grid-column: 3 / span 2;
+}
+
+.pre-filters > div:nth-child(3) {
+    grid-column: 1 / span 4;
+}
+
+.pre-filters > div:nth-child(4) {
+    grid-column: 2 / span 2;
+}
+
+span.action_text.my_account_text {
+    font-family: "Cormorant Garamond", serif;
+    color: #222222;
+    font-weight: normal;
+}
+
+div.healcode .ui-widget-header {
+    font-family: "Cormorant Garamond", serif;
+    color: #222222;
+    font-weight: normal;
+    line-height: 1.8em;
+    text-align: center;
+}
+
+.ui-datepicker th {
+    padding: 0.7em 0.3em;
+    font-weight: normal;
+}
+
+span.appointment.button {
+    padding: 5;
+    margin: 2;
+    justify-self: stretch;
+    background-color: rgb(220, 220, 220);
+}
+
+.hc-button.signup_now.filterable {
+    float: right;
+    color: rgb(100, 100, 100);
+}
+
+div.trainer-label > a {
+    font-family: "Cormorant Garamond", serif;
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.trainer-label {
+    font-family: "Cormorant Garamond", serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    grid-column: 1/6;
+}
+
+.healcode-trainer {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-auto-flow: row;
+    align-items: stretch;
+    margin-bottom: 0.5em;
+}
+
+.healcode-date-label {
+    font-family: Cinzel, serif;
+    color: rgb(109, 97, 65);
+    font-size: 1.75em;
+    font-weight: lighter;
+}
+
+#hc-find-appt {
+    align-items: center;
+    appearance: none;
+    background-color: rgb(50, 50, 50);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: flex;
+    font-size: 1.5em;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    height: 56px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+div.healcode .ui-widget {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.75em;
+}
+
+div.healcode .header h1 .healcode-title-text {
+    font: normal normal normal 37px/1.4em Cinzel, serif;
+    pointer-events: auto;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+    color: #6d6141;
+}
+#session_type,
+#options_staff_ids_ {
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    border-bottom-color: rgb(0, 0, 0, 0);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(0, 0, 0, 0);
+    border-left-style: solid;
+    border-left-width: 0;
+    border-right-color: rgb(0, 0, 0, 0);
+    border-right-style: solid;
+    border-right-width: 0;
+    border-top-color: rgb(0, 0, 0, 0);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-style: solid;
+    border-top-width: 0;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: block;
+    font-family: cinzel, sans-serif;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    font-size: 18px;
+    height: 51px;
+    letter-spacing: normal;
+    line-height: 25.2px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    max-width: 100%;
+    min-height: 10px;
+    min-width: 100%;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-bottom: 0;
+    padding-left: 12px;
+    padding-right: 45px;
+    padding-top: 0;
+    position: relative;
+    text-align: start;
+    text-align-last: left;
+    text-indent: 0;
+    text-overflow: ellipsis;
+    text-shadow: none;
+    text-transform: none;
+    white-space: nowrap;
+    width: 319px;
+    word-spacing: 0;
+    writing-mode: horizontal-tb;
+}
+div.healcode.appointments a.hc-button #hc-find-appt .hc-button input.hc-button .signup_now .appointment {
+    align-items: center;
+    appearance: none;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(50, 50, 50);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: auto;
+    border-bottom-color: rgb(50, 50, 50);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(50, 50, 50);
+    border-left-style: solid;
+    border-left-width: 0px;
+    border-right-color: rgb(50, 50, 50);
+    border-right-style: solid;
+    border-right-width: 0px;
+    border-top-color: rgb(50, 50, 50);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-style: solid;
+    border-top-width: 0px;
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: flex;
+    font-family: "Cormorant Garamond", serif;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    font-size: 18px;
+    height: 56px;
+    justify-content: center;
+    left: 0px;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    outline-color: rgb(0, 0, 0);
+    outline-style: none;
+    outline-width: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    pointer-events: auto;
+    position: absolute;
+    right: 0px;
+    text-align: start;
+    text-indent: 0px;
+    text-rendering: auto;
+    text-shadow: none;
+    text-transform: none;
+    top: 0px;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.4s, 0.4s;
+    transition-property: border-color, background-color;
+    transition-timing-function: ease, ease;
+    vertical-align: baseline;
+    width: 319px;
+    word-spacing: 0px;
+    writing-mode: horizontal-tb;
+    -webkit-border-image: none;
+    border-image: none;
+}
